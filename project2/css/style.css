@@ -75,6 +75,7 @@ header p {
 
 footer {
     font-size: .8em;
+    text-align:center;
     border-top: 1px solid gray;
 }
 
@@ -82,7 +83,7 @@ footer, h3, a {
     display: inline-block;
 }
 
-footer, h3 {
+footer h3 {
     padding-right: 2.5em;
 }
 
