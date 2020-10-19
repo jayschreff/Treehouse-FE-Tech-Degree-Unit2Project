@@ -57,6 +57,10 @@ header p {
     font-size: 1em;
 }
 
+.contact {
+    margin-top: 2.5em;
+}
+
 .contact, li {
      background-color: rgb(250, 248, 248);
      list-style: none;
@@ -70,6 +74,7 @@ header p {
 
 .contact, p {
     font-size: 1em;
+    padding-bottom: 1em;;
 
 }
 
@@ -89,6 +94,7 @@ footer h3 {
 
 a {
     font-size: 1.1em;
+    padding: .5em 0;
 }
 .clearfix::after {
     content: "";
