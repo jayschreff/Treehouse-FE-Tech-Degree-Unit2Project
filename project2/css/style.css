@@ -52,9 +52,9 @@ header p {
 }
 
 .portfolio, p {
-    padding: .2em;
     text-align: center;
     font-size: 1em;
+    
 }
 
 .contact {
@@ -103,3 +103,88 @@ footer a {
     clear: both;
     display: table;
   }
+
+  @media (min-width: 768px) {
+
+    header {
+        height: 400px;
+    }
+
+    nav li {
+        background-color: rgb(250, 248, 248);
+        display: inline;
+    }
+
+    .img-head {
+        height: 150px;
+        width: 250px;
+        float: right;
+        margin: 0 .5em;
+        padding: 2em;
+    }
+
+    header p {
+       text-align: left;
+    }
+
+    .portfolio {
+        width: 100%
+    }
+
+    .portfolio img {
+        margin: 0 auto;
+    }
+
+    .portfolio h3 {
+        display: block;
+    }
+
+    .portfolio-1 {
+        display: inline-block;
+        width: 40%;
+        
+    }
+
+    .portfolio-2 {
+        display: inline-block;
+        width: 40%;
+        
+    }
+
+    .portfolio-3 {
+        display: inline-block;
+        width: 40%;
+        
+    }
+
+    .portfolio-4 {
+        display: inline-block;
+        width: 40%;
+        
+    }
+
+    .portfolio-5 {
+        display: inline-block;
+        width: 40%;
+        
+    }
+
+    .portfolio-6 {
+        display: inline-block;
+        width: 40%;
+        
+    }
+    
+    clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+}
+
+  @media (min-width: 1024px) {
+
+    
+
+}
