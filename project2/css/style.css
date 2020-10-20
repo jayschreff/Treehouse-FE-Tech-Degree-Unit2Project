@@ -89,12 +89,13 @@ footer, h3, a {
 }
 
 footer h3 {
-    padding-right: 5em;
+    padding-right: 1em;
 }
 
-a {
+footer a {
+    display: inline-block;
     font-size: 1.1em;
-    padding: .5em 0;
+    padding: 10px;
 }
 .clearfix::after {
     content: "";
