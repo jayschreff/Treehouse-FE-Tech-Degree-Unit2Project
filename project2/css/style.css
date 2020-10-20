@@ -213,10 +213,27 @@ footer a {
         margin-bottom: 1em;
     }
 
-    footer {
+   footer {
+       background-color: rgb(250, 248, 248);
+       width: 100%;
+       border-top: 90%;
+   }
+
+    footer a:nth-child(2) {
         display: none;
     }
 
+    footer a {
+        float: right;
+        padding: 1em;
+    }
+
+   footer h3 {
+       float:left;
+       padding-left: 2em;
+   }
+
+   footer a
     .portfolio-title {
         clear: both;
     }
