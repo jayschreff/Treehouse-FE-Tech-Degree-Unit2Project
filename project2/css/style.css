@@ -101,7 +101,7 @@ footer h3 {
 footer a {
     display: inline-block;
     font-size: 1.1em;
-    padding: 10px;
+    margin-right: 1em;
 }
 
 footer :nth-child(5),
@@ -121,6 +121,7 @@ footer a:nth-child(1) {
 
     body {
         font-size: .9em;
+        max-width: 100%
     }
 
     header {
@@ -169,31 +170,37 @@ footer a:nth-child(1) {
     .portfolio-1 {
         float: left;
         width: 40%;
+        min-height: 400px;
      }
 
     .portfolio-2 {
         float: left;
         width: 40%;
+        min-height: 400px;
     }
 
     .portfolio-3 {
         float: left;
         width: 40%;  
+        min-height: 400px;
     }
 
     .portfolio-4 {
         float: left;
-        width: 40%;    
+        width: 40%;   
+        min-height: 400px; 
     }
 
     .portfolio-5 {
         float: left;
-        width: 40%;    
+        width: 40%; 
+        min-height: 400px;   
     }
 
     .portfolio-6 {
         float: left;
-        width: 40%;    
+        width: 40%;  
+        min-height: 400px;  
     }
     
     .portfolio-1, .portfolio-3, .portfolio-5{
@@ -221,6 +228,12 @@ footer a:nth-child(1) {
     .contact li {
         margin-bottom: 1em;
     }
+
+    .contact ul {
+        margin-right: 2em;
+    }
+
+    
 
    footer {
        background-color: rgb(250, 248, 248);
@@ -253,6 +266,10 @@ footer a:nth-child(1) {
 
   @media (min-width: 1024px) {
 
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
 
     header h2 {
         display: inline-block;
